@@ -1,0 +1,109 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainDoa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECF0F1"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="right"
+            android:background="@drawable/a2"/>
+
+        <Button
+            android:id="@+id/btn_doa_habis_wudhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Selesai Berwudhu"
+            android:background="#E74C3C"
+            android:textColor="#ECF0F1"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_doa_susah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Ketika Kesusahan"
+            android:background="#F39C12"
+            android:textColor="#FF993366"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_doa_buruk_hati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Berlindung dari Buruk Hati dan Jiwa"
+            android:background="#F1C40F"
+            android:textColor="#FF993366"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_doa_bahagia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Bahagia Dunia Akhirat"
+            android:background="#27AE60"
+            android:textColor="#ECF0F1"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_doa_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Masuk Rumah"
+            android:background="#3498DB"
+            android:textColor="#ECF0F1"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_doa_cinta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Agar Mencintai dan Dicintai Allah"
+            android:background="#9B59B6"
+            android:textColor="#ECF0F1"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_doa_ilmu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:text="Doa Diberi Ilmu"
+            android:background="#8E44AD"
+            android:textColor="#ECF0F1"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
